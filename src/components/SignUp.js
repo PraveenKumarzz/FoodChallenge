@@ -31,8 +31,6 @@ const SignUp = () => {
                 <div className={classes["input-container"]}>
                     <label htmlFor="fullname"> Full Name: </label>
                     <input
-                        
-                        
                         id="fullname"
                         type="name"
                         required
