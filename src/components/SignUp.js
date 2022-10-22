@@ -29,6 +29,17 @@ const SignUp = () => {
             <form>
                 <h4>SignUp</h4>
                 <div className={classes["input-container"]}>
+                    <div className={classes["input-container"]}>
+                    <label htmlFor="fullname"> Full Name: </label>
+                    <input
+                        
+                        
+                        id="fullname"
+                        type="name"
+                        required
+                        placeholder="Enter Fullname here"
+                    />
+                </div>
                     <label htmlFor="e-mail">Email: </label>
                     <input
                         value={emailInput}
