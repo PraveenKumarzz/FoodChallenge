@@ -7,7 +7,7 @@ const Home = () => {
     const navigate = useNavigate();
 
     if (!userContext.isLoggedIn) {
-        return <Navigate to="/login" />;
+        return <Navigate to="/signup" />;
     }
 
     function linkToMenuHandler() {
