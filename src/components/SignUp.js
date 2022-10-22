@@ -29,7 +29,6 @@ const SignUp = () => {
             <form>
                 <h4>SignUp</h4>
                 <div className={classes["input-container"]}>
-                    <div className={classes["input-container"]}>
                     <label htmlFor="fullname"> Full Name: </label>
                     <input
                         
@@ -40,6 +39,7 @@ const SignUp = () => {
                         placeholder="Enter Fullname here"
                     />
                 </div>
+                <div className={classes["input-container"]}>
                     <label htmlFor="e-mail">Email: </label>
                     <input
                         value={emailInput}
@@ -52,6 +52,7 @@ const SignUp = () => {
                         placeholder="Enter Email Id here"
                     />
                 </div>
+                
                 <div className={classes["input-container"]}>
                     <label htmlFor="password">Password: </label>
                     <input
