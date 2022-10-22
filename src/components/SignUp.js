@@ -34,7 +34,7 @@ const SignUp = () => {
                         id="fullname"
                         type="name"
                         required
-                        placeholder="Enter Fullname here"
+                        placeholder="Enter Full name here"
                     />
                 </div>
                 <div className={classes["input-container"]}>
